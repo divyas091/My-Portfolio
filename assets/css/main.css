@@ -39,6 +39,30 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
+.info-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-list li {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.info-list li strong {
+  width: 140px;
+  min-width: 140px;
+  display: inline-block;
+  font-weight: 600;
+  color: #000;
+}
+
+.info-list li span {
+  color: #333;
+}
+
+
 .light-background {
   --background-color: #f4fafd;
   --surface-color: #ffffff;
